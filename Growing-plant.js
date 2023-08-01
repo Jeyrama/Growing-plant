@@ -45,3 +45,5 @@ function growingPlant(upSpeed, downSpeed, desiredHeight) {
   
   return days;
 }
+
+// or
