@@ -47,3 +47,12 @@ function growingPlant(upSpeed, downSpeed, desiredHeight) {
 }
 
 // or
+
+function growingPlant(upSpeed, downSpeed, desiredHeight) {  
+  let i = 1;
+  for (let height = upSpeed; height < desiredHeight; height = height + upSpeed){
+    height = height - downSpeed;
+    i++;   
+  }
+  return i;
+}
