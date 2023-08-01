@@ -26,3 +26,6 @@ After day 9 --> 820
 After night 9 --> 810
 After day 10 --> 910 
 */
+
+
+// Solution
